@@ -28,7 +28,7 @@ $config = $app->config;
 $myConfig = $systemRoot . 'config/my.php';
 if(!file_exists($myConfig))
 {
-    echo "文件" . $myConfig . "不存在！ 提示：不要重命名原来的蝉知安装目录，下载最新的源码包，覆盖即可。" . "<br />";
+    echo "文件" . $myConfig . "不存在！ 提示：不要重命名原来的乐饮安装目录，下载最新的源码包，覆盖即可。" . "<br />";
     echo $myConfig . " doesn't exists! Please don't rename xirang directory, get source code and just override it!";
     exit;
 }

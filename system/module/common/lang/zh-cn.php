@@ -21,11 +21,11 @@ $lang->divider    = "<span class='divider'>{$lang->raquo}</span> ";
 $lang->back2Top   = '返回顶部';
 
 /* Lang items for xirang. */
-$lang->chanzhiEPS  = '蝉知企业门户系统';
-$lang->chanzhiEPSx = '蝉知';
-$lang->agreement   = "已阅读并同意<a href='http://api.chanzhi.org/goto.php?item=license' target='_blank'>《蝉知企业门户系统使用协议》</a>。<span class='text-danger'>未经许可，不得去除蝉知系统的任何标志及链接。</span>";
+$lang->chanzhiEPS  = '乐饮企业门户系统';
+$lang->chanzhiEPSx = '乐饮';
+$lang->agreement   = "已阅读并同意<a href='http://api.chanzhi.org/goto.php?item=license' target='_blank'>《乐饮企业门户系统使用协议》</a>。<span class='text-danger'>未经许可，不得去除乐饮系统的任何标志及链接。</span>";
 $lang->poweredBy   = " <span id='poweredBy'><a href='http://www.chanzhi.org/?v=%s' target='_blank' title='%s'><i class='icon icon-bell'></i> {$lang->chanzhiEPSx} %s</a></span>";
-$lang->newVersion  = "提示：蝉知系统已于 <span id='releaseDate'></span> 发布 <span id='version'></span>版本。<a href='' target='_blank' id='upgradeLink'>马上下载</a>";
+$lang->newVersion  = "提示：乐饮系统已于 <span id='releaseDate'></span> 发布 <span id='version'></span>版本。<a href='' target='_blank' id='upgradeLink'>马上下载</a>";
 
 /* Global lang items. */
 $lang->home           = '首页';
@@ -298,11 +298,11 @@ define('DT_TIME1',     'H:i:s');
 define('DT_TIME2',     'H:i');
 
 /* Keywords for chanzhi. */
-$lang->k  = '蝉知门户，开源免费的企业建站系统!;';
-$lang->k .= '蝉知门户，开源免费的cms!;';
-$lang->k .= '蝉知门户，免费建站首选！;';
-$lang->k .= '蝉知门户，企业网站建设专家！;';
-$lang->k .= '蝉知门户，开源php企业建站系统！;';
-$lang->k .= '蝉知门户，微网站专家！;';
-$lang->k .= '蝉知门户，微网站首选！;';
-$lang->k .= '蝉知门户，微信营销首选！';
+$lang->k  = '乐饮门户，开源免费的企业建站系统!;';
+$lang->k .= '乐饮门户，开源免费的cms!;';
+$lang->k .= '乐饮门户，免费建站首选！;';
+$lang->k .= '乐饮门户，企业网站建设专家！;';
+$lang->k .= '乐饮门户，开源php企业建站系统！;';
+$lang->k .= '乐饮门户，微网站专家！;';
+$lang->k .= '乐饮门户，微网站首选！;';
+$lang->k .= '乐饮门户，微信营销首选！';

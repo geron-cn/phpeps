@@ -17,9 +17,9 @@ $lang->install->error   = '错误 ';
 
 $lang->install->start            = '开始安装';
 $lang->install->keepInstalling   = '继续安装当前版本';
-$lang->install->welcome          = '您睿智地选择了蝉知企业门户系统!';
+$lang->install->welcome          = '您睿智地选择了乐饮企业门户系统!';
 $lang->install->desc             = <<<EOT
-<p>使用蝉知，您可以：</p>
+<p>使用乐饮，您可以：</p>
 <blockquote>
   <ul>
     <li><strong>品牌宣传</strong>：建立品牌网站，展示企业形象。</li>
@@ -30,7 +30,7 @@ $lang->install->desc             = <<<EOT
 </blockquote>
 EOT;
 
-$lang->install->newVersion = "提示：蝉知系统已于 <span id='releaseDate'></span> 发布 <span id='version'></span>版本。<a href='' target='_blank' id='upgradeLink'>马上下载</a>";
+$lang->install->newVersion = "提示：乐饮系统已于 <span id='releaseDate'></span> 发布 <span id='version'></span>版本。<a href='' target='_blank' id='upgradeLink'>马上下载</a>";
 
 $lang->install->choice     = '您可以选择：';
 $lang->install->checking   = '系统检查';
