@@ -57,6 +57,7 @@ class file extends control
         if($file)
         {
             if(!$this->file->checkSavePath()) $this->send(array('error' => 1, 'message' => $this->lang->file->errorUnwritable));
+            if(!in_array(strtolower($file['extension']), $this->config->file->imageExtensions)) $this->send(array('error' => 1, 'message' => $this->lang->fail));
             move_uploaded_file($file['tmpname'], $this->file->savePath . $file['pathname']);
 
             if(in_array(strtolower($file['extension']), $this->config->file->imageExtensions) !== false)
@@ -75,7 +76,6 @@ class file extends control
             $this->dao->insert(TABLE_FILE)->data($file)->exec();
 
             $_SESSION['album'][$uid][] = $this->dao->lastInsertID();
-
             die(json_encode(array('error' => 0, 'url' => $url)));
         }
     }
@@ -91,12 +91,13 @@ class file extends control
      */
     public function browse($objectType, $objectID, $isImage = null)
     {
-        $this->view->title      = "<i class='icon-paper-clip'></i>" . $this->lang->file->browse;
-        $this->view->modalWidth = 1000;
+        $this->view->title      = "<i class='icon-paper-clip'></i> " . ($isImage ? $this->lang->file->imageList : $this->lang->file->browse);
+        $this->view->modalWidth = 800;
         $this->view->writeable  = $this->file->checkSavePath();
         $this->view->objectType = $objectType;
         $this->view->objectID   = $objectID;
         $this->view->files      = $this->file->getByObject($objectType, $objectID, $isImage);
+        $this->view->users      = $this->loadModel('user')->getPairs();
         $this->display();
     }
   

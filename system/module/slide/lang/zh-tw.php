@@ -12,6 +12,7 @@
 $lang->slide->common = '幻燈片';
 
 $lang->slide->title      = '標題';
+$lang->slide->titleColor = '標題顏色';
 $lang->slide->image      = '圖片';
 $lang->slide->mainLink   = '連結';
 $lang->slide->summary    = '摘要';
@@ -28,7 +29,7 @@ $lang->slide->background->color = '背景顏色';
 $lang->slide->background->typeList = new stdclass();
 
 $lang->slide->background->typeList->image = '圖片';
-$lang->slide->background->typeList->color = '純色';
+$lang->slide->background->typeList->color = '顏色';
 
 $lang->slide->height      = '高度';
 $lang->slide->url         = '連結';
