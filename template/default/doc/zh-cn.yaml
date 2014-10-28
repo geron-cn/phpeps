@@ -1,12 +1,12 @@
 name:默认模板
 parser:default
 code:default
-author:蝉知官方
-desc:这是蝉知企业门户系统默认模板
+author:乐饮官方
+desc:这是乐饮企业门户系统默认模板
 version:2.5
 chanzhiVersion:2.5
 charge:free
-license:http://www.chanzhi.org/book/chanzhieps/58_license.html
+license:http://182.92.8.201/
 themes:
    default:默认模板
    blue:蓝色
