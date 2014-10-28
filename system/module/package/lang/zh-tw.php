@@ -36,7 +36,7 @@ $lang->package->name        = '名稱';
 $lang->package->code        = '插件代號';
 $lang->package->version     = '版本';
 $lang->package->compatible  = '適用版本';
-$lang->package->latest      = '<small>最新版本<strong><a href="%s" target="_blank" class="package">%s</a></strong>，兼容蟬知<a href="http://api.chanzhi.org/goto.php?item=latest" target="_blank" class="alert-link"><strong>%s</strong></a></small>';
+$lang->package->latest      = '<small>最新版本<strong><a href="%s" target="_blank" class="package">%s</a></strong>，兼容樂飲<a href="http://api.chanzhi.org/goto.php?item=latest" target="_blank" class="alert-link"><strong>%s</strong></a></small>';
 $lang->package->author      = '作者';
 $lang->package->license     = '授權';
 $lang->package->intro       = '詳情';
@@ -98,7 +98,7 @@ $lang->package->errorPackageFileExists       = '下載路徑已經有一個名�
 $lang->package->errorDownloadFailed          = '下載失敗，請重新下載。如果多次重試還不行，請嘗試手工下載，然後通過上傳功能上傳。';
 $lang->package->errorMd5Checking             = '下載檔案不完整，請重新下載。如果多次重試還不行，請嘗試手工下載，然後通過上傳功能上傳。';
 $lang->package->errorExtracted               = '包檔案<strong> %s </strong>解壓縮失敗，可能不是一個有效的zip檔案。錯誤信息如下：<br />%s';
-$lang->package->errorCheckIncompatible       = '該插件與蟬知版本不兼容，%s後可能無法使用。。<h3>您可以選擇 <a href="%s">強制%s</a> 或者 <a href="#" onclick=parent.location.href="%s">取消</a></h3>';
+$lang->package->errorCheckIncompatible       = '該插件與樂飲版本不兼容，%s後可能無法使用。。<h3>您可以選擇 <a href="%s">強制%s</a> 或者 <a href="#" onclick=parent.location.href="%s">取消</a></h3>';
 $lang->package->errorFileConflicted          = '有以下檔案衝突：<br />%s <h3>您可以選擇 <a href="%s">覆蓋</a> 或者 <a href="#" onclick=parent.location.href="%s">取消</a></h3>';
 $lang->package->errorPackageNotFound         = '包檔案 <strong>%s </strong>沒有找到，可能是因為自動下載失敗。您可以嘗試再次下載。';
 $lang->package->errorTargetPathNotWritable   = '目標路徑 <strong>%s </strong>不可寫。';
@@ -106,5 +106,5 @@ $lang->package->errorTargetPathNotExists     = '目標路徑 <strong>%s </strong
 $lang->package->errorInstallDB               = '執行資料庫語句失敗。錯誤信息如下：%s';
 $lang->package->errorConflicts               = '與插件“%s”衝突！';
 $lang->package->errorDepends                 = '以下依賴插件沒有安裝或版本不正確：<br /><br /> %s';
-$lang->package->errorIncompatible            = '該插件與您的蟬知版本不兼容';
+$lang->package->errorIncompatible            = '該插件與您的樂飲版本不兼容';
 $lang->package->errorUninstallDepends        = '插件“%s”依賴該插件，不能卸載';

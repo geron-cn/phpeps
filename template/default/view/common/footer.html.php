@@ -22,9 +22,7 @@
         <?php if(!empty($config->site->icpLink) and !empty($config->site->icp)) echo html::a(strpos($config->site->icpLink, 'http://') !== false ? $config->site->icpLink : 'http://' . $config->site->icpLink, $config->site->icp, "target='_blank'");?>
         <?php if(empty($config->site->icpLink))  echo $config->site->icp;?>
       </span>
-      <div id='powerby'>
-        <?php printf($lang->poweredBy, $config->version, k(), $config->version); ?>
-      </div>
+     
     </div>
   </footer>
    
