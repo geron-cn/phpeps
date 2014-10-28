@@ -25,7 +25,7 @@ include 'loader.php';
 checkAdminEntry();
 
 /* Instance the app. */
-$app = router::createApp('chanzhi', $systemRoot);
+$app = router::createApp('leyin', $systemRoot);
 $config = $app->config;
 
 /* Check the reqeust is getconfig or not. Check installed or not. */

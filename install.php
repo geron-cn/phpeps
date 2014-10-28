@@ -22,7 +22,7 @@ define('RUN_MODE', 'install');
 include 'loader.php';
 
 /* Instance the app and run it. */
-$app = router::createApp('chanzhi', $systemRoot);
+$app = router::createApp('leyin', $systemRoot);
 $config = $app->config;
 
 /* Check installed or not. */
