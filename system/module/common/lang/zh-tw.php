@@ -24,7 +24,7 @@ $lang->back2Top   = '返回頂部';
 $lang->chanzhiEPS  = '樂飲企業門戶系統';
 $lang->chanzhiEPSx = '樂飲';
 $lang->agreement   = "已閲讀並同意<a href='http://api.chanzhi.org/goto.php?item=license' target='_blank'>《樂飲企業門戶系統使用協議》</a>。<span class='text-danger'>未經許可，不得去除樂飲系統的任何標誌及連結。</span>";
-$lang->poweredBy   = " <span id='poweredBy'><a href='http://182.92.8.201/' target='_blank' ><i class='icon icon-bell'></i> {$lang->chanzhiEPSx}</a></span>";
+$lang->poweredBy   = " <span id='poweredBy'><a href='http://182.92.8.201/' target='_blank' >{$lang->chanzhiEPSx}</a></span>";
 $lang->newVersion  = "提示：樂飲系統已于 <span id='releaseDate'></span> 發佈 <span id='version'></span>版本。<a href='' target='_blank' id='upgradeLink'>馬上下載</a>";
 
 /* Global lang items. */
